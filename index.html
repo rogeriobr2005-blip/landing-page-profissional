@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rogério.dev | Front-End Developer</title>
+  <meta name="description" content="Desenvolvedor front-end criando interfaces modernas e profissionais.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+<header>
+  <div class="header-container">
+    <h1 class="logo">Rogério<span>.dev</span></h1>
+    
+    <div class="menu-toggle" id="mobile-menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+
+    <nav class="nav-menu">
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato" class="nav-btn">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="inicio">
+    <div class="hero-content">
+      <div class="hero-text">
+        <span class="badge">Disponível para novos projetos</span>
+        <h2>Desenvolvedor <br><span>Front-End</span></h2>
+        <p>Transformo ideias em interfaces digitais de alto desempenho, focadas em usabilidade e design minimalista.</p>
+        <div class="hero-btns">
+          <button class="btn-primary" onclick="window.location='#contato'">Vamos conversar</button>
+          <button class="btn-secondary" onclick="window.location='#projetos'">Ver projetos</button>
+        </div>
+      </div>
+
+      <div class="hero-img">
+        <div class="img-wrapper">
+          <i data-lucide="code-2"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="servicos">
+    <div class="container">
+      <h2 class="section-title">Serviços</h2>
+      <div class="cards">
+        <div class="card">
+          <i data-lucide="layout"></i>
+          <h3>Criação de Sites</h3>
+          <p>Interfaces responsivas que funcionam perfeitamente em qualquer dispositivo.</p>
+        </div>
+        <div class="card">
+          <i data-lucide="zap"></i>
+          <h3>Landing Pages</h3>
+          <p>Páginas otimizadas para conversão com foco em resultados reais.</p>
+        </div>
+        <div class="card">
+          <i data-lucide="settings"></i>
+          <h3>Manutenção</h3>
+          <p>Otimização de performance e atualizações constantes para seu negócio.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos" id="projetos">
+    <h2 class="section-title">Projetos <span>em destaque</span></h2>
+    
+    <div class="projetos-container">
+      <div class="projeto-card">
+        <div class="img-container">
+          <img src=https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=800" alt="Loja de Móveis">
+          <div class="overlay">
+            <a href="https://rogeriobr2005-blip.github.io/aura-essentials/" target="_blank">Explorar Projeto <i data-lucide="external-link"></i></a>
+          </div>
+        </div>
+        <div class="projeto-info">
+          <h3>AURA Essentials & Design</h3>
+          <div class="tecnologias">
+            <span>HTML</span><span>CSS</span><span>SEO</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="projeto-card">
+        <div class="img-container">
+          <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=500" alt="GameHub">
+          <div class="overlay">
+            <a href="https://rogeriobr2005-blip.github.io/gamehub.blip/" target="_blank">Explorar Projeto <i data-lucide="external-link"></i></a>
+          </div>
+        </div>
+        <div class="projeto-info">
+          <h3>GameHub Platform</h3>
+          <div class="tecnologias">
+            <span>JS</span><span>API</span><span>CSS Grid</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contato" id="contato">
+    <div class="contato-box">
+      <h2>Inicie um projeto agora</h2>
+      <p>Estou pronto para tirar sua ideia do papel.</p>
+      <a href="https://wa.me/7791430074" target="_blank" class="wa-btn">
+        <i data-lucide="message-circle"></i> Chamar no WhatsApp
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 Rogério.dev — Todos os direitos reservados</p>
+</footer>
+
+<script src="script.js"></script>
+<script>lucide.createIcons();</script>
+</body>
+</html>
